@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/GIT/BaseConverter2/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/root/GIT/BaseConverter2/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/root/GIT/androidbaseconverter/BaseConverter2/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/root/GIT/androidbaseconverter/BaseConverter2/app/src/main/res/menu/menu_main.xml"
+    }
+]
