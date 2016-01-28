@@ -2,25 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="0"
-        android:textSize="24sp"
-        android:gravity="center"/>
-    <TextView
+        android:textSize="48sp"
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"
+        />
+    <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"/>
-    <TextView
+        android:layout_weight="0.5"
+        android:enabled="false"/>
+    <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="1"
-        android:textSize="25sp"
-        android:gravity="center"/>
+        android:textSize="48sp"
+        android:gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
 
 </LinearLayout>

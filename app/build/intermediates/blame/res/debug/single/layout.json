@@ -164,6 +164,10 @@
         "source": "/root/GIT/androidbaseconverter/BaseConverter2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
     },
     {
+        "merged": "/root/GIT/BaseConverter2/app/build/intermediates/res/merged/debug/layout/fragment_decimal.xml",
+        "source": "/root/GIT/BaseConverter2/app/src/main/res/layout/fragment_decimal.xml"
+    },
+    {
         "merged": "/root/GIT/androidbaseconverter/BaseConverter2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/root/GIT/androidbaseconverter/BaseConverter2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
     },

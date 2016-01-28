@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:id="@+id/fab"
+    android:layout_gravity="center|right"
+    android:layout_margin="16dp"
+    android:src="@drawable/test"
+    >
+
+</ImageView>

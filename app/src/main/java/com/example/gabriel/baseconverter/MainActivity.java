@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -12,11 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
 
+        DefaultFontDefine();
+
         getSupportFragmentManager().
                 beginTransaction().
                 replace(R.id.container,new FragmentBinaryBase()).
                 commit();
 
+    }
+
+    private void DefaultFontDefine(){
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setDefaultFontPath("fonts/light.ttf")
+                .setFontAttrId(R.attr.fontPath)
+                .build()
+        );
     }
 
     @Override

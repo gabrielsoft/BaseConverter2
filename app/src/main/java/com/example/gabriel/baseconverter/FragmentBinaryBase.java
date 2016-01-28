@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 public class FragmentBinaryBase extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup parent,Bundle savedInstanceState){
-        View layout = inflater.inflate(R.layout.fragment_binary,parent,false);
+        View layout = inflater.inflate(R.layout.fragment_decimal,parent,false);
         return layout;
     }
 }
